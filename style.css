@@ -54,7 +54,8 @@ body {
   transform-origin: 50% 100%;
   animation: title 10s linear;
   animation-direction: reverse;
-  animation-delay: -2s;
+  animation-delay: -1s;
+  z-index: -1;
 }
 
 @keyframes title {
